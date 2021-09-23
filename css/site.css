@@ -1,1 +1,17 @@
 img, object { max-width: 90%; max-height: 90%;}
+
+.address{
+    font-size: .8rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .address{
+        font-size: 1rem;
+    }
+}
+
+@media print {
+    .address{
+        font-size: 1rem;
+    }
+}
